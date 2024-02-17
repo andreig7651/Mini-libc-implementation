@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "fcntl.h": "c",
+        "syscall.h": "c",
+        "mem_list.h": "c",
+        "types.h": "c",
+        "mman.h": "c",
+        "string.h": "c",
+        "essentials.h": "c",
+        "time.h": "c",
+        "unistd.h": "c",
+        "syscall_list.h": "c"
+    }
+}

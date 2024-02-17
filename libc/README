@@ -1,0 +1,11 @@
+Gavriliu Andrei-Mihai 333CB
+
+Principala resursa in realizarea temei a fost ChatGpt. In principiu nu am incercat sa abuzez sau sa iau solutiile de-a gata in acest mod. Functiile usoare si pe care am stiut sa le fac le-am rezolvat singur. Am folosit ChatGpt in situatiile in care ma blocam si aveam nevoie de o idee sau o solutie. Altfel, l-am folosit atunci cand am vrut sa imi verific o implementare proprie.
+
+Functiile la care am folosit ChatGPT sunt: strncpy(pentru conditia din if, cu adaugarea lui '\0'), apoi la memmove pentru ca nu am reusit sa inteleg foarte bine diferenta dintre memmove si memcpy.  La partea de io am folosit ChatGpt doar pentru functiile open si close, pentru a intelege ideea de rezolvare, iar pe restul le-am implementat singur dupa modelul celor doua. Functiile sleep si nanosleep le-am realizat tot cu ajutor din partea ChatGpt in special din cauza faptului ca sleep se implementeaza cu ajutorul lui nanosleep.
+
+Structura din time.h am luat-o de aici: https://www.educative.io/answers/what-is-timespec-in-c
+Informatii despre functii am citit de pe https://www.tutorialspoint.com/ sau de pe https://www.geeksforgeeks.org/. De pe aceste site-uri am verificat in principal semnatura functiilor, dar si valorile de return atat pentru succes, cat si pentru esec. Nu m-am folosit de cod gata facut de pe aceste site-uri.
+
+In principiu tema a fost super placuta, comparativ cu alte teme din facultate care au fost super grele. Am rezolvat-o in 3 zile maxim si chiar m-a ajutat sa inteleg ce
+sta in spatele functiilor din libc.
